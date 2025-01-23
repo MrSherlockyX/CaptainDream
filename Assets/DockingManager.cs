@@ -110,4 +110,9 @@ public class DockingManager : MonoBehaviour
 
         return null;
     }
+
+    public bool IsPlayerControllingShip()
+    {
+        return isControllingShip;
+    }
 }
